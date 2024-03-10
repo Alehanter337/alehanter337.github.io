@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaquaries.css">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Alexander Cherkasov</div>
+    <div class="links">
+      <ul class="nav-links">
+        <li><a href="#about">About me</li>
+        <li><a href="#skills">Skills</li>
+        <li><a href="#portfolio">Portfolio</li>
+        <li><a href="#contact">Contact me</li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Alexander Cherkasov</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="openMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="openMenu()">About me</a></li>
+        <li><a href="#skills" onclick="openMenu()">Skills</a></li>
+        <li><a href="#portfolio" onclick="openMenu()">Portfolio</a></li>
+        <li><a href="#contact" onclick="openMenu()">Contact me</a></li>
+      </div>
+    </div>
+  </nav>
+  <script src="main.js"></script>
+</body>
+
+</html>
