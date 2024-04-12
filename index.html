@@ -15,10 +15,10 @@
     <div class="logo">Alexander Cherkasov</div>
     <div class="links">
       <ul class="nav-links">
-        <li><a href="#about">About me</li>
-        <li><a href="#skills">Skills</li>
-        <li><a href="#portfolio">Portfolio</li>
-        <li><a href="#contact">Contact me</li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a class="round" href="#contact">Contact me</a></li>
       </ul>
     </div>
   </nav>
@@ -38,6 +38,38 @@
       </div>
     </div>
   </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Alexander Cherkasov profile picture ">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Alexander Cherkasov </h1>
+      <p class="section__text__p2">Embedded C Developer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('./assets/resume_example.pdf')">Download CV
+        </button>
+         
+        <button
+        class="btn btn-color-1"
+        onclick="location.href('./#contact')">Contact Info
+      </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" 
+        alt="My LinkedIn Profile"
+        class="icon" 
+        onclick="window.open('https://linkedin.com')">
+        <img src="./assets/github.png" 
+        alt="My GitHub Profile"
+        class="icon" 
+        onclick="window.open('https://github.com/Alehanter337')">
+      </div>
+      
+    </div>
+  </section>
   <script src="main.js"></script>
 </body>
 
