@@ -184,8 +184,8 @@ a:hover {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh; 
-} 
+    height: 90vh;
+}
 
 .section__pic-container {
     display: flex;
@@ -196,11 +196,11 @@ a:hover {
 
 .section__text {
     align-self: center;
-    text-align: center; 
+    text-align: center;
 }
 
 .section__text p {
-    font-weight: 600; 
+    font-weight: 600;
 }
 
 .section__text__p1 {
@@ -273,4 +273,105 @@ a:hover {
 
 .btn-color-2:hover {
     border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    /* padding-right: 10rem; */
+    /* margin-left: 10rem; */
+
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 5rem;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+
+.arrow {
+    position: absolute; /* not relative at all */
+    right: 5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: black 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 2rem auto;
+    padding: 1rem
+
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0 1 rem;
 }
